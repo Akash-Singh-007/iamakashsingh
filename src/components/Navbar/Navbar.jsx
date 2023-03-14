@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="n-list">
                 <ul>
                     <li>Home</li>
-                    <li>Services</li>
+                    <li>Service</li>
                     <li>Experience</li>
                     <li>Portfolio</li>
                     <li>Testimonials</li>
