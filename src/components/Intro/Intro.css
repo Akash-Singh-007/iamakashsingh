@@ -35,8 +35,11 @@
 }
 
 .i-right>:nth-child(3){
-    transform: scale(1.4);
-    left: 28%
+    transform: scale(2.2);
+    left: 22%;
+    top: 52px;
+    border-radius: 50%;
+    border-bottom-right-radius: 20%;
 }
 
 .i-right>:nth-child(4){
