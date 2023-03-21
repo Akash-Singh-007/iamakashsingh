@@ -1,5 +1,5 @@
 import React from 'react';
-import Acheivement from '../Acheivement/Acheivement';
+import Acheivement from '../Partials/Acheivement/Acheivement';
 import './Experience.css';
 
 const Experience = () => {

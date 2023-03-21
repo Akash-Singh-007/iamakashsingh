@@ -1,6 +1,6 @@
 import React from 'react';
 import './Intro.css';
-import FloatingDiv from '../FloatingDiv/FloatingDiv';
+import FloatingDiv from '../Partials/FloatingDiv/FloatingDiv';
 import Github from '../../img/github.png';
 import LinkedIn from '../../img/linkedin.png';
 import Instagram from '../../img/instagram.png';

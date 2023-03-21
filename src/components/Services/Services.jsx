@@ -3,7 +3,7 @@ import './Services.css'
 import Heartemoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
-import Card from '../Card/Card';
+import Card from '../Partials/Card/Card';
 import Resume from './resume.pdf';
 
 const Services = () => {
