@@ -6,3 +6,9 @@
     height: 30vh;
     margin-bottom: 8rem;
 }
+
+@media screen and (max-width: 480px) {
+    .experience{
+        transform: scale(0.7);
+    }
+}
