@@ -6,6 +6,12 @@ import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
+import JK from "../../img/jkenterprise.png";
+import Keeper from "../../img/keeper.png";
+import MHC from "../../img/mhc.png";
+import Dice from "../../img/dice.png";
+import Drum from "../../img/drum.png";
+
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 
@@ -26,16 +32,19 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={JK} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={Dice} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={Drum} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={MHC} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Keeper} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

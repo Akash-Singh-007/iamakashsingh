@@ -22,11 +22,12 @@ const Services = () => {
             <span style={{color: darkMode? 'white' : ''}}>My Awesome</span>
             <span>Services</span>
             <spane>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            Getting a quality website is not an expenses 
                 <br/>
-                fgnfgb dfgdf ipsum dolor sit amet
+                but rather an investment.
             </spane>
-            <a href={Resume} download>
+            {/* <a href={Resume} download> */}
+            <a href="#">
                 <button className="button s-button">Download CV</button>
             </a>
 
@@ -43,7 +44,7 @@ const Services = () => {
                 <Card
                 emoji = {Heartemoji}
                 heading = {'Design'}
-                detail = {"sdfdfgk dfkjgdf kdfjhg dkdjfhg"}
+                detail = {"Creating designs keeping users in the mind"}
                 />
             </motion.div>
             <motion.div 
@@ -54,7 +55,7 @@ const Services = () => {
                 <Card
                 emoji = {Glasses}
                 heading = {'Developer'}
-                detail = {"sdfdfgk dfkjgdf kdfjhg dkdjfhg"}
+                detail = {"My frontend is my face"}
                 />
             </motion.div>
             <motion.div 
@@ -64,8 +65,8 @@ const Services = () => {
             style={{top: '19rem', left: '12rem'}}>
                 <Card
                 emoji = {Humble}
-                heading = {'UI/UX'}
-                detail = {"sdfdfgk dfkjgdf kdfjhg dkdjfhg"}
+                heading = {'Blog'}
+                detail = {"Creating spicy technical blogs."}
                 />
             </motion.div>
             <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>

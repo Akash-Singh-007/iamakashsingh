@@ -10,6 +10,7 @@ import Crown from '../../img/crown.png';
 import Thumbup from '../../img/thumbup.png';
 import Glassesemoji from '../../img/glassesemoji.png';
 import Akash from '../../img/akash2.png';
+import { Link } from 'react-scroll';
 import { themeContext } from "../../Context";
 import { useContext } from "react";
 import {motion} from 'framer-motion';
@@ -26,17 +27,19 @@ const Intro = () => {
             <div className="i-name">
                 <span style={{color: darkMode? 'white' : ''}}>Hy! I Am</span>
                 <span>Akash Singh</span>
-                <span>Frontend Developer Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora necessitatibus assumenda.</span>
+                <span>I AM A Frontend Developer And Design And Develope Experiences <br></br>That Make People's Lives <strong>Simple</strong>.</span>
             </div>
-            <button className="button i-button">Hire Me</button>
+            <Link to="contact" spy={true} smooth={true}>
+                <button className="button i-button">Hire Me</button>
+            </Link>
             <div className="i-icons">
-                <a href="#">
+                <a target="_blank" href="https://github.com/Akash-Singh-007">
                     <img src={Github} alt="" />
                 </a>
-                <a href="#">
+                <a target="_blank" href="https://www.linkedin.com/in/akash-singh-a9b55b1b6/">
                     <img src={LinkedIn} alt="" />
                 </a>
-                <a href="#">
+                <a target="_blank" href="https://www.instagram.com/singh_akash__007/">
                     <img src={Instagram} alt="" />
                 </a> 
             </div>
@@ -44,7 +47,7 @@ const Intro = () => {
         <div className="i-right">
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
-            <img src={Akash} alt=""  style={{width:'180px'}}/>
+            <img src={Akash} alt="" className='myphoto' style={{width:'180px'}}/>
             <motion.img 
             initial={{left:'-36%'}}
             whileInView={{left:'-24%'}}

@@ -2,8 +2,9 @@ import React from 'react';
 import Wave from '../../img/wave.png';
 import './Footer.css';
 import Instagram from '@iconscout/react-unicons/icons/uil-instagram';
-import Facebook from '@iconscout/react-unicons/icons/uil-facebook';
+import Linkedin from '@iconscout/react-unicons/icons/uil-linkedin';
 import Github from '@iconscout/react-unicons/icons/uil-github';
+import Twitter from '@iconscout/react-unicons/icons/uil-twitter';
 
 const Footer = () => {
   return (
@@ -12,9 +13,10 @@ const Footer = () => {
         <div className="f-content">
             <span>akashsingh777567@gmail.com</span>
             <div className="f-icons">
-                <Instagram color='white' size='3rem'/>
-                <Facebook color='white' size='3rem'/>
-                <Github color='white' size='3rem'/>
+                <a target="_blank" href="https://www.instagram.com/singh_akash__007/"><Instagram color='white' size='3rem'/></a>
+                <a target="_blank" href="https://www.linkedin.com/in/akash-singh-a9b55b1b6/"><Linkedin color='white' size='3rem'/></a>
+                <a target="_blank" href="https://github.com/Akash-Singh-007"><Github color='white' size='3rem'/></a>
+                <a target="_blank" href="https://twitter.com/Akash____Singh"><Twitter color='white' size='3rem'/></a>
             </div>
         </div>
     </div>

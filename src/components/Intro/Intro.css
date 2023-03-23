@@ -37,7 +37,7 @@
 .i-right>:nth-child(3){
     transform: scale(2.2);
     left: 22%;
-    top: 52px;
+    top: 85px;
     border-radius: 50%;
     border-bottom-right-radius: 20%;
 }
@@ -138,3 +138,14 @@
     }
   }
   
+  @keyframes photo {
+    0%   {top:85px;}
+    50%  {top:100px;}
+    100% {top:85px;}
+  }
+  
+  .myphoto{
+    animation-name: photo;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }
