@@ -1,11 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
 import JK from "../../img/jkenterprise.png";
 import Keeper from "../../img/keeper.png";
 import MHC from "../../img/mhc.png";
