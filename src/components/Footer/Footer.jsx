@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="f-content">
             <span>akashsingh777567@gmail.com</span>
             <div className="f-icons">
-                <a target="_blank" href="https://www.instagram.com/singh_akash__007/"><Instagram color='white' size='3rem'/></a>
+                <a target="_blank" href="https://www.instagram.com/aakashsatyendra/"><Instagram color='white' size='3rem'/></a>
                 <a target="_blank" href="https://www.linkedin.com/in/akash-singh-a9b55b1b6/"><Linkedin color='white' size='3rem'/></a>
-                <a target="_blank" href="https://github.com/Akash-Singh-007"><Github color='white' size='3rem'/></a>
-                <a target="_blank" href="https://twitter.com/Akash____Singh"><Twitter color='white' size='3rem'/></a>
+                <a target="_blank" href="https://github.com/aakashsatyendra"><Github color='white' size='3rem'/></a>
+                <a target="_blank" href="https://twitter.com/aakashsatyendra"><Twitter color='white' size='3rem'/></a>
             </div>
         </div>
     </div>

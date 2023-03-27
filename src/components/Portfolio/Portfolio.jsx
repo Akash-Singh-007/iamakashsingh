@@ -7,6 +7,7 @@ import Keeper from "../../img/keeper.png";
 import MHC from "../../img/mhc.png";
 import Dice from "../../img/dice.png";
 import Drum from "../../img/drum.png";
+import Netflix from "../../img/netflix.png";
 
 import { themeContext } from "../../Context";
 import { useContext } from "react";
@@ -41,6 +42,9 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={Keeper} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={Netflix} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
